@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bgColor{
+    background-color: #16355F;
+    box-shadow: #26313C;
+    height: 80px;
+    margin-top: -10px;
+   }
+/* ************************************************** */
+.about-hero{
+    width: 100vw;
+  height: 70vh;
+  background-image: linear-gradient(rgba(5, 4, 20, 0.6), rgba(13, 13, 14, 0.7)),
+  url("/images/bg-about-header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* ******************************** */
+
+ .para-about a{
+text-decoration: none;
+color: #fff;
+ }
+ .about-conatiner{
+    background-image: linear-gradient( #4B9ADF, #26C9D5);
+    padding: 10px 0;
+    margin: 0 20px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ********************************************* */
+.about-section{
+    background-color: #eee;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.about-system{
+    color: #2ACDD5;
+}
+.career-text{
+    color: #2ACDD5;
+}
+.conatact-sec{
+    background-color: #eee;
+}
+.form-div{
+    display: flex;
+   gap: 5px;
+}
+.btn-submit{
+    background-color: #fff;
+    color: #000;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* *************************** FOOTER CSS*********************************** */
+.footer-sec{
+    background-color: #26313C;
+    padding: 50px 0;
+}
+.footer-para{
+    font-size: 14px;
+}
+.footer-sec i{
+    font-size: 24px;
+}
+.no-email{
+    margin-top: 10px;
+}
+
+.icon-linked{
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+    background-color: #4B9ADF;
+   padding: 7px 0 5px 5px;
+   text-align: center;
+}
+.icon-face{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+     background-color: #3B5998;
+    padding: 7px 0 18px 1px;
+    text-align: center;
+ }
+ .icon-insta{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-image: linear-gradient(#E41C84, #FAD423 );
+    padding: 7px 0 18px 1px;
+    text-align: center;
+ }
+ .coloun-icon i{
+    font-size: 12px;
+    color: #636060;
+ }
