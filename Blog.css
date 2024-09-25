@@ -11,7 +11,7 @@
    }
 /* ************************************************** */
 .about-hero{
-    width: 100vw;
+ width: 100vw;
   height: 70vh;
   background-image: linear-gradient(rgba(5, 4, 20, 0.6), rgba(13, 13, 14, 0.7)),
   url("/images/about-us.png");
@@ -46,7 +46,7 @@
     color: #4B9ADF;
 }
 .blog-sec{
-    padding-top: 40px;
+    padding-top: 70px;
     background-color: #eee;
 }
 /* ******************************** */
@@ -63,8 +63,12 @@ color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    width: 97%;
 }
-
+.about-sec{
+    background-color: #eee;
+}
 /* ********************************************* */
 .about-section{
     background-color: #eee;

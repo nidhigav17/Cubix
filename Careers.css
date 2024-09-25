@@ -33,12 +33,17 @@ color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+width: 97%;
+}
+.about-sec{
+    background-color: #eee;
 }
 
 /* ********************************************* */
 .about-section{
     background-color: #eee;
-    padding-top: 50px;
+    padding-top: 80px;
     padding-bottom: 80px;
 }
 .about-system{
