@@ -12,6 +12,7 @@
   margin-top: -10px;
  }
 
+
 .carousel-item::before{
     content: "";
     display: block;
