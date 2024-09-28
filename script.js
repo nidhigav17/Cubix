@@ -6,6 +6,7 @@ function changeScroll(){
         navbar.classList.remove("bgColor");
     }else{
         navbar.classList.add("bgColor");
+       
     }
     
 }

@@ -7,7 +7,6 @@
 
  .bgColor{
   background-color: #16355F;
-  box-shadow: #26313C;
   height: 80px;
   margin-top: -10px;
  }
@@ -48,9 +47,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.about-img{
-    padding-left: 30px;
-}
+
 /* *************************** */
 #sec-second{
 padding-top: 80px;
@@ -78,15 +75,9 @@ background-color: #F6F7F8;
     background-image: url('/images/counter-bg.jpg'); 
     background-size: cover;
     background-position: center;
-    height: 60vh; 
+    height: 80vh; 
 }
-.content-center {
-    padding: 20px 80px;
-    border-radius: 10px;
-    color: #EEEEEE;
-    
-}
-.content-center a{
+.section-background a{
   color: #fff;
  text-decoration: none;
 }
@@ -183,3 +174,81 @@ background-color: #F6F7F8;
     font-size: 12px;
     color: #636060;
  }
+
+
+ /* *************************** */
+ /* ************* Start Feature page Slider **************** */
+.card-wrapper {
+    display: flex;
+}
+.product-card {
+    margin: 0.5rem;
+    width: calc(100%/4);
+    
+}
+.mediumCorousel{
+    display: none;
+}
+.smallCorousel {
+    display: none;
+}
+.image-wapper {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-wapper img {
+    width: 100%;
+    height: 300px;
+}
+/* *********** End Feature page Slider  *************** */
+/* *********************************************************** */
+
+
+/* ***************************************************** */
+/************* Start CSS for Medium Screens *************/
+
+@media screen and ((max-width: 1000px) and (min-width: 500px)) {
+    .product-card {
+        margin: 0.5rem;
+        width: calc(100%/2);
+        
+    }
+
+    .mediumCorousel {
+        display: block;
+    }
+    .smallCorousel {
+        display: none;
+    }
+}
+/* *********************** End ******************* */
+/* *************************************************** */
+
+
+/* ************************************************ */
+/************* CSS for Small Screen ***************/
+@media screen and (max-width: 500px) {
+    .product-card {
+        margin: 0.5rem;
+        width: calc(100%);
+        
+    }
+
+    .smallCorousel {
+        display: block;
+    }
+
+    .image-wapper {
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .image-wapper img {
+        width: 100%;
+        height: 300px;
+    }
+}

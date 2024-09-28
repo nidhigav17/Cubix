@@ -17,11 +17,12 @@
   </head>
   <body>
     <!-- header  -->
-    <header >
-      <nav  class="navbar navbar-expand-lg navbar-dark bg-dark bg-transparent fixed-top">
-        <div class="container-fluid px-4" id="nav-scroll">
+
+     <header >
+      <nav  class="navbar navbar-expand-lg navbar-dark w-100 bg-dark bg-transparent fixed-top px-4">
+        <div class="container-fluid" id="nav-scroll">
           <a class="navbar-brand" href="#">
-            <img class="px-5"  width="420px" src="/images/Cubix-Logo-white.png" alt="logo" />
+            <img class="img-fluid"  width="300px" src="/images/Cubix-Logo-white.png" alt="logo" />
           </a>
           <button
             class="navbar-toggler"
@@ -32,10 +33,10 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon "></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+          <div class="collapse navbar-collapse text-success" id="navbarNav">
+            <ul class="navbar-nav ms-auto text-center  mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/">Home</a>
               </li>
@@ -138,7 +139,7 @@
      <section id="sec-one">
         <div class="container">
             <div class="row">
-              <div class="col-sm-6 pb-2">
+              <div class="col-sm-12 col-md-6 col-lg-6 col-12 pb-2">
                 <h1 class="fw-semibold fs-1">About <span class="text-primary">Us</span></h1>
                 <p>
                   Headquartered in Noida, Cubix Control Systems (P) Ltd. is an IATF
@@ -163,8 +164,8 @@
                 </p>
                 <a href="about.html"><button class="btn-read text-light">Read More</button></a>
               </div>
-              <div class="col-sm-6 py-3">
-                <img class="about-img img-fluid" src="/images/Cubix-about-us.png" alt="" />
+              <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto px-4 mt-2">
+                <img class="about-img img-fluid img-thumbnail" src="/images/Cubix-about-us.png" alt="img" />
               </div>
             </div>
           </div>
@@ -175,15 +176,15 @@
         <div class="container-fluid">
             <div class="row">
              <h1 class="text-center heading-our">Our Capabilities</h1>
-             <div class="col-sm-3">
+             <div class="col-sm-12 col-md-3 col-lg-3 col-12">
                  <div class="card">
-                     <img class="card-img-top img-fluid" src="/images/PCB-ASSEMBLY.png" alt="Card image cap">
+                     <img class="card-img-top img-fluid " src="/images/PCB-ASSEMBLY.png" alt="Card image cap">
                      <div class="card-block">
                          <p class="card-text para-hover text-center fw-semibold ">PCB ASSEMBLY</p>
                      </div>
                  </div>
              </div>
-             <div class="col-sm-3">
+             <div class="col-sm-12 col-md-3 col-lg-3 col-12">
                  <div class="card">
                      <img class="card-img-top img-fluid" src="/images/BOX-BUILD-ASSEMBLY.png" alt="Card image cap">
                      <div class="card-block">
@@ -191,7 +192,7 @@
                      </div>
                  </div>
              </div>
-             <div class="col-sm-3">
+             <div class="col-sm-12 col-md-3 col-lg-3 col-12">
                  <div class="card">
                      <img class="card-img-top img-fluid" src="/images/Wiring-Harness.png" alt="Card image cap">
                      <div class="card-block">
@@ -200,7 +201,7 @@
                  </div>
              </div>
              
-             <div class="col-sm-3">
+             <div class="col-sm-12 col-md-3 col-lg-3 col-12">
                  <div class="card">
                      <img class="card-img-top img-fluid" src="/images/PLASTIC-MOULDING.jpg" alt="Card image cap">
                      <div class="card-block">
@@ -216,75 +217,396 @@
 
 <!-- Quality Section -->
     <section class="section-background d-flex justify-content-center align-items-center ">
-      <div class="text-center content-center py-4">
+      <div class=" container-fluid text-center text-white">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-12">
           <h1 class="mb-3">Quality</h1>
-          <p class="mb-4">At Cubix, we promote a quality culture at each level throughout the company and follow the principle of “Next process is our customer” with foolproof mechanism to ensure that each product has been through every Quality Control stage starting with vendor development, incoming quality, process quality, final product quality and extends to customer incoming quality.</p>
-          <a href="Quality.html" class=" btn-read pb-3">Learn More</a>
+          <p class="mb-4 px-5">At Cubix, we promote a quality culture at each level throughout the company and follow the principle of “Next process is our customer” with foolproof mechanism to ensure that each product has been through every Quality Control stage starting with vendor development, incoming quality, process quality, final product quality and extends to customer incoming quality.</p>
+          <a href="Quality.html" class="btn-read">Learn More</a>
+        </div>
       </div>
+        </div>
   </section>
    
    <!-- our Clients section -->
 <section class="our-Client">
   <h1 class="text-center">Our Clients</h1>
-  <!-- Testimonial Slider -->
-<div id="testimonialCarousel" class="carousel slide " data-bs-ride="carousel" data-bs-interval="1000">
-  <div class="carousel-inner ">
-      <!-- First Slide -->
-      <div class="carousel-item active ">
-          <div class="row ">
-              <div class="col-md-2  offset-md-1 testimonial-item ">
-                  <img src="/images/addverb.jpg" alt="Testimonial 1" class="img-fluid">
+
+    <div >
+      <div class="card text-center">
+    
+        <!--------------- first slide ------------>
+        <div id="largeCorousel" class="carousel slide  d-none d-lg-block" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card-wrapper">
+                <div class="card product-card">
+                  <div class="image-wapper">
+                    <img src="/images/aibi.jpg" alt="image">
+                  </div>
+                </div>
+
+                <div class="card product-card">
+                  <div class="image-wapper">
+                    <img src="/images/addverb.jpg" alt="image">
+                  </div>
+                </div>
+
+                <div class="card product-card">
+                  <div class="image-wapper">
+                    <img src="/images/STPL.jpg" alt="image">
+                  </div>
+                </div>
+                <div class="card product-card">
+                  <div class="image-wapper">
+                    <img src="/images/tvs.jpg" alt="image">
+                  </div>
+                </div>
+
+                <div class="card product-card">
+                  <div class="image-wapper">
+                    <img src="/images/volvo-penta.jpg" alt="image">
+                  </div>
+                </div>
               </div>
-              <div class="col-md-2 testimonial-item">
-                  <img src="/images/aibi.jpg" alt="Testimonial 2" class="img-fluid">
-              </div>
-              <div class="col-md-2 testimonial-item">
-                  <img src="/images/STPL.jpg" alt="Testimonial 3" class="img-fluid">
-              </div>
-              <div class="col-md-2 testimonial-item">
-                  <img src="/images/tvs.jpg" alt="Testimonial 4" class="img-fluid">
-              </div>
-              <div class="col-md-2 testimonial-item">
-                  <img src="/images/volvo-penta.jpg" alt="Testimonial 5" class="img-fluid">
-              </div>
-          </div>
+            </div>
+  <!------------------ second slide ---------------------->
+  <div class="carousel-item">
+    <div class="card-wrapper">
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/aibi.jpg" alt="image">
+        </div>
+        
       </div>
 
-      <!-- Second Slide -->
-      <div class="carousel-item">
-          <div class="row">
-              <div class="col-md-2 offset-md-1 testimonial-item">
-                  <img src="/images/addverb.jpg" alt="Testimonial 6" class="img-fluid">
-              </div>
-              <div class="col-md-2 testimonial-item">
-                  <img src="/images/aibi.jpg" alt="Testimonial 7" class="img-fluid">
-              </div>
-              <div class="col-md-2 testimonial-item">
-                  <img src="/images/STPL.jpg" alt="Testimonial 8" class="img-fluid">
-              </div>
-              <div class="col-md-2 testimonial-item">
-                  <img src="/images/tvs.jpg" alt="Testimonial 9" class="img-fluid">
-              </div>
-              <div class="col-md-2 testimonial-item">
-                  <img src="/images/volvo-penta.jpg" alt="Testimonial 10" class="img-fluid">
-              </div>
-          </div>
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/addverb.jpg" alt="image">
+        </div>
+       
       </div>
+
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/STPL.jpg" alt="image">
+        </div>
+       
+      </div>
+
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/tvs.jpg" alt="image">
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  <!----------------------- Third Slide --------------------->
+  <div class="carousel-item">
+    <div class="card-wrapper">
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/aibi.jpg" alt="image">
+        </div>
+        
+      </div>
+
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/tvs.jpg" alt="image">
+        </div>
+        
+      </div>
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/STPL.jpg" alt="image">
+        </div>
+      </div>
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/addverb.jpg" alt="image">
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#largeCorousel" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon"></span></button>
+<button class="carousel-control-next" type="button" data-bs-target="#largeCorousel" data-bs-slide="next">
+  <span class="carousel-control-next-icon"></span></button>
+</div>
+<!------------- End product Corousel for Large Screens --------------->
+
+<!------------ Start Product Corousel for Medium Screens --------------->
+<!------------- first slide -------------->
+<div id="mediumCorousel" class="carousel slide corousel-dark mediumCorousel" data-bs-ride="carousel">
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <div class="card-wrapper">
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/aibi.jpg" alt="image">
+        </div>
+       
+      </div>
+
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/aibi.jpg" alt="image">
+        </div>
+       
+      </div>
+    </div>
   </div>
 
-  <!-- Carousel Controls -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-  </button>
+  <div class="carousel-inner">
+    <div class="carousel-item">
+      <div class="card-wrapper">
+        <div class="card product-card">
+          <div class="image-wapper">
+            <img src="/images/aibi.jpg" alt="image">
+          </div>
+          
+        </div>
+
+        <div class="card product-card">
+          <div class="image-wapper">
+            <img src="/images/aibi.jpg" alt="image">
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div> 
+  <!-- ------------- Second slide ------------- -->
+   <div class="carousel-item">
+    <div class="card-wrapper">
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/aibi.jpg" alt="image">
+        </div>
+        
+      </div>
+
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/aibi.jpg" alt="image">
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="carousel-item">
+    <div class="card-wrapper">
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/aibi.jpg" alt="image">
+        </div>
+      
+      </div>
+
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/aibi.jpg" alt="image">
+        </div>
+       
+      </div>
+    </div>
+  </div> 
+  <!-------------- Third Slide --------------->
+  <div class="carousel-item">
+    <div class="card-wrapper">
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/yamaha.jpg" alt="image">
+        </div>
+        
+      </div>
+
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/STPL.jpg" alt="image">
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+  <div class="carousel-item">
+    <div class="card-wrapper">
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/aibi.jpg" alt="image">
+        </div>
+       
+      </div>
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/tvs.jpg" alt="image">
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
+<button class="carousel-control-prev" type="button" data-bs-target="#mediumCorousel" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#mediumCorousel" data-bs-slide="next">
+  <span class="carousel-control-next-icon"></span>
+</button>
+</div> 
+<!------- End Product Corousel for medium Screens -------------->
+
+<!------------ Start Product Corousel for Small Screens ---------->
+
+<div id="smallCorousel" class="carousel slide corousel-dark smallCorousel" data-bs-ride="carousel">
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <div class="card-wrapper">
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/aibi.jpg" alt="image">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="carousel-item">
+    <div class="card-wrapper">
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/tvs.jpg" alt="image">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="carousel-item">
+    <div class="card-wrapper">
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/yamaha.jpg" alt="image">
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="carousel-item">
+    <div class="card-wrapper">
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/volvo-penta.jpg" alt="image">
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="carousel-item">
+    <div class="card-wrapper">
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/STPL.jpg" alt="image">
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+  <div class="carousel-item">
+    <div class="card-wrapper">
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/aibi.jpg" alt="image">
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="carousel-item">
+    <div class="card-wrapper">
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/STPL.jpg" alt="image">
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="carousel-item">
+    <div class="card-wrapper">
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/aibi.jpg" alt="image">
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+  <div class="carousel-item">
+    <div class="card-wrapper">
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/STPL.jpg" alt="image">
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+  <div class="carousel-item">
+    <div class="card-wrapper">
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/tvs.jpg" alt="image">
+        </div>
+        <div class="image-wapper">
+          <img src="/images/yamaha.jpg" alt="image">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="carousel-item">
+    <div class="card-wrapper">
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/aibi.jpg" alt="image">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="carousel-item">
+    <div class="card-wrapper">
+      <div class="card product-card">
+        <div class="image-wapper">
+          <img src="/images/volvo-penta.jpg" alt="image">
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#smallCorousel" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#smallCorousel" data-bs-slide="next">
+  <span class="carousel-control-next-icon"></span>
+</button>
+</div>
+<!-------- End Product Corousel for Small Screensn ---------->
 </section>
-    <!-- our Clients section End--> 
+
+
 
 <!-- our Blog -->
  <section class="blog-sec">
@@ -294,7 +616,7 @@
    </div>
    <div class="container">
      <div class="row">
-     <div class="col-sm-4">
+     <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-2">
       <div class="card h-100">
         <img src="/images/blog1.jpg" class="card-img-top img-hover img-fluid" alt="blog1">
         <div class="card-body">
@@ -305,7 +627,7 @@
         </div>
       </div>
      </div>
-     <div class="col-sm-4">
+     <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-2">
       <div class="card h-100">
         <img src="/images/blog2.jpg" class="card-img-top img-hover img-fluid" alt="blog1">
         <div class="card-body">
@@ -316,7 +638,7 @@
         </div>
       </div>
      </div>
-     <div class="col-sm-4">
+     <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-2">
       <div class="card h-100">
         <img src="/images/blog3.jpg" class="card-img-top img-hover img-fluid" alt="blog1">
         <div class="card-body">
@@ -337,7 +659,7 @@
 <p class="text-center">Cubix welcomes your questions, comments and suggestions.</p>
 <div class="container">
   <div class="row">
-    <div class="col p-5">
+    <div class="col-sm-12 col-md-6 col-lg-6 col-12 p-5">
       <form>
         <div class="mb-3">
           <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Your Name" >
@@ -349,7 +671,7 @@
           <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Mobile">
         </div>
         <div class="mb-3">
-         <textarea name="" placeholder="Your Message" id="" cols="80" rows="5"></textarea>
+         <textarea name="" placeholder="Your Message" id="" cols="60" rows="5"></textarea>
         </div>
 
         <div class="mb-3 form-check">
@@ -362,7 +684,7 @@
         </div>
       </form>
     </div>
-    <div class="col p-5">
+    <div class="col-sm-12 col-md-6 col-lg-6 col-12 p-5">
      <p class="text-primary">Cubix Control Systems Pvt. Ltd</p>
      <p>Address: F-19, Sector-11, NOIDA - 201301, Uttar Pradesh (U.P.), India</p>
      <p>Mr. Varun Chaudhry</p>
@@ -385,7 +707,7 @@
     <footer class="footer-sec">
     <div class="container">
    <div class="row">
-    <div class="col-sm-3 text-light p-4">
+    <div class="col-sm-12 col-md-3 col-lg-3 col-12 text-light p-4">
       <h3 class="fw-light pb-3">About Us</h3>
       <p class="footer-para pb-3">Headquartered in Noida, Cubix Control Systems (P) Ltd. is an IATF 16949, ISO 9001, ISO 14001 and ISO 45001 certified Electronics Manufacturing Services (EMS) company.</p>
        <p class="pb-4"><i class="fa-solid fa-mobile-screen-button icon-mobile"></i> 	+91 99103 85067 <span class="px-4">
@@ -393,7 +715,7 @@
         <div class="pb-4"><i class="fa-brands fa-linkedin-in icon-linked"></i> <span><i class="fa-brands fa-facebook-f icon-face"></i></span><span> <i class="fa-brands fa-instagram icon-insta"></i></span></div>
       <p class="footer-para">Designed by Media Solutions</p>
       </div>
-    <div class="col-sm-3 text-light p-4 coloun-icon">
+    <div class="col-sm-12 col-md-3 col-lg-3 col-12 text-light p-4 coloun-icon">
       <h3 class="fw-light pb-3">Capabilities</h3>
       <a href="" class="text-light text-decoration-none"><i class="fa-solid fa-caret-right pb-2"></i>  PCB Assembly</a><br>
       <a href="" class="text-light text-decoration-none "><i class="fa-solid fa-caret-right pb-2"></i>  Box-Build Assembly</a><br>
@@ -401,7 +723,7 @@
          Wiring Harnesses</a><br>
       <a href="" class="text-light text-decoration-none"><i class="fa-solid fa-caret-right"></i>  Plastic Moulding</a>
     </div>
-    <div class="col-sm-3 text-light p-4 coloun-icon">
+    <div class="col-sm-12 col-md-3 col-lg-3 col-12 text-light p-4 coloun-icon">
       <h3 class="fw-light pb-3">Navigation</h3>
       <a href="/about.html" class="text-light text-decoration-none"><i class="fa-solid fa-caret-right pb-2"></i>  About Us</a><br>
       <a href="/Quality.html" class="text-light text-decoration-none"><i class="fa-solid fa-caret-right pb-2"></i>  Quality</a><br>
@@ -410,7 +732,7 @@
       <a href="/Contact.html" class="text-light text-decoration-none"><i class="fa-solid fa-caret-right pb-2"></i>  Contact</a>
     </div>
    
-    <div class="col-sm-3 text-light p-4 coloun-icon">
+    <div class="col-sm-12 col-md-3 col-lg-3 col-12 text-light p-4 coloun-icon">
       <h3 class="fw-light pb-3">Expertises</h3>
       <a href="" class="text-light text-decoration-none"><i class="fa-solid fa-caret-right pb-2"></i>  Automotive</a><br>
       <a href="" class="text-light text-decoration-none"><i class="fa-solid fa-caret-right pb-2"></i>  Consumer Electronics</a><br>
